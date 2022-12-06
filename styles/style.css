@@ -91,8 +91,9 @@ html {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
     z-index: 10;
+    opacity: 0.8;
   }
  
   
@@ -188,4 +189,8 @@ html {
   width: 40%;
   float: left;
   padding: 0px 20px 90px 60px;
+}
+.text-down p{
+  background-color: #8f8f8f;
+  text-align: center;
 }
