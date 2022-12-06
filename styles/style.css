@@ -92,6 +92,7 @@ html {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
     padding: 0px 0px 0px 0px;
+    z-index: 10;
   }
  
   
