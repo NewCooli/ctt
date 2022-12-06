@@ -21,11 +21,12 @@ html {
     color: rgb(0, 0, 0);
     padding: 20px 60px 30px 60px;
     background-color: #d1d1d1;
+    
   }
   p {
     margin: 0;
-    font-size: 40px;
-    line-height: 1;
+    font-size: 30px;
+    line-height: 1.5;
     letter-spacing: 1px;
     background-color: white;
     margin-left: 0%;
@@ -43,7 +44,7 @@ html {
   body {
     width: 100%;
     margin: 0 auto;
-    background: linear-gradient(to top, #43005e, #242424);
+    background-color: #000000;
     padding: 0px 0px 0px 0px;
     
    
@@ -103,6 +104,7 @@ html {
     text-align: center;
     padding: 0px 0px 40px 0px;
     font-size: 30px;
+    letter-spacing: 0px;
   }
   .header{
     margin-top: 0px;
@@ -134,4 +136,26 @@ html {
   margin-right: 0%;
   padding: 20px 0px 30px 20px;
  }
- 
+ .gallery {
+  
+  border: 1px solid #ccc;
+  float: left;
+  width: 16.3%;
+  margin-top: 20px;
+  margin-left: 5px;
+  float:left; 
+  box-sizing: border-box;
+}
+.gallery:hover {
+
+  border: 1px solid #777;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  
+}
+.gall{
+  margin: 0 auto;
+  padding: 0px 60px 0px 60px;
+}
