@@ -1,0 +1,90 @@
+html {
+    font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+    font-family: 'Caveat', cursive;
+    background-image: url(../images/fon.jpg);
+    color: rgb(0, 0, 0);
+    background-size: cover;
+  }
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  h1 {
+    padding-top: 1px;
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px rgba(111, 0, 255, 0.466);
+  }
+  h2,h3 {
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+  }
+  p {
+    margin: 0;
+    font-size: 40px;
+    line-height: 2;
+    letter-spacing: 1px;
+    
+  }
+  li {
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 1px;
+    
+  }
+  body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 10px 20px 20px 20px;
+    opacity: 0.7;
+   
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    
+    width: 90%;
+  }
+  
+  ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+  }
+  a {
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #00539F;
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  }
+  li {
+    display: inline;
+    font-size: 40px;
+  }
+  .menu{
+    margin-left: 5%;
+    margin-right: 65px;
+    text-align: center;
+    
+  }
+  .header{
+    display: inline;
+    
+  }
+  .header-text{
+    color: #00539F;
+    text-align: center;
+    line-height: 1.5cm;
+    padding: 0px 0px 0px 0px;
+  }
+  .header-icon{
+    margin-left: 3%;
+    width: 7%;
+    position: absolute;
+    
+  }
