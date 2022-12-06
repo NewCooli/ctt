@@ -1,51 +1,52 @@
 html {
     font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
-    font-family: 'Oswald', sans-serif;
-    background-image: url(../images/fon.jpg);
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 0px 0px 0px;
     color: rgb(0, 0, 0);
     background-size: cover;
+    margin: 0px 0px 0px 0px;
   }
   h1 {
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
-  }
-  h1 {
-    padding-top: 1px;
-    font-size: 100px;
-    margin: 0px;
-    padding: 0px 0;
+    padding: 20px 60px 30px 60px;
+    
+    
     color: #ffffff;
-    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.466);
+    
   }
   h2 {
     margin: 0;
     font-size: 50px;
-    text-align: center;
-    color: white;
+    text-align:left;
+    color: rgb(0, 0, 0);
+    padding: 20px 60px 30px 60px;
+    background-color: #d1d1d1;
   }
   p {
     margin: 0;
     font-size: 40px;
-    line-height: 2;
+    line-height: 1;
     letter-spacing: 1px;
     background-color: white;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding: 1% 1% 1% 1%;
-    border-radius: 5px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 20px 60px 30px 60px;
+    text-align: justify;
   }
   li {
-    font-size: 30px;
+    
     line-height: 2;
     letter-spacing: 0px;
-    
+    display: inline;
+    font-size: 40px;
   }
   body {
     width: 100%;
     margin: 0 auto;
-    background: linear-gradient(to top, #ff01d5, #0026ff);
+    background: linear-gradient(to top, #43005e, #242424);
     padding: 0px 0px 0px 0px;
-    opacity: 0.7;
+    
    
   }
   img {
@@ -62,52 +63,47 @@ html {
   }
   .a {
     color: rgb(255, 255, 255);
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #00539F;
+    padding: 6px 10px 10px 10px;
+    font-size: 20px;
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
-    border-radius: 5px;
+    
   }
-  li {
-    display: inline;
-    font-size: 40px;
-  }
+  
   .menu{
-    margin-left: 5%;
-    margin-right: 65px;
-    
-    
+    margin-bottom: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #242424;
+    text-align: center;
   }
  
   .header-text{
-    color: #00539F;
+    color: #000000;
     text-align: center;
-    
     padding: 0px 0px 0px 0px;
   }
   .header-icon{
-    margin-left: 3%;
-    width: 10%;
-    position: absolute;
+    margin-top: 0px;
+    margin-left: 0%;
+    width: 8%;
+    float:left; 
     opacity: none;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 60px 30px 60px;
   }
   .header-text-1{
     line-height: 1;
     margin-top: 0%;
-    padding-top: 0%;
+    text-align: center;
+    padding: 0px 0px 35px 0px;
+    font-size: 30px;
   }
   .header{
     margin-top: 0px;
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 0px;
     
   }
-  .shadow{
-    box-shadow:10px 10px 1px #4d4d4d;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
+  
  .img_1{
   background-color: #ffffff;
   box-shadow: 10px 10px 1px #4d4d4d;
@@ -117,15 +113,18 @@ html {
     padding-top: 1%;
     border-radius: 5px;
  }
- .ots{
-  margin-left: 25%;
-  color: rgb(255, 255, 255);
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: #ffd900;
-  border-radius: 5px;
- }
+ 
  a{
   text-decoration: none; /*убираем подчеркивание текста ссылок*/
+ }
+ .text{
+  margin: 0;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 1px;
+  background-color: white;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 20px 0px 30px 20px;
  }
  
